@@ -63,7 +63,7 @@ describe("In Home View", () => {
     });
 
     it('it renders correct markup',()=>{
-        expect(homeWrapper.html()).toContain('<div class="container home">');
+        expect(homeWrapper.html()).toContain('<div class="home">');
     });
 
     it('should return shows', async () => {
